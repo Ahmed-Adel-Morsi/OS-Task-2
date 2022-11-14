@@ -12,4 +12,4 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: "Docker Hub Login"
-        run: login --username ahmedmorsi --password dckr_pat_RCM7sOWtIoVCNXp6-64pvB2y6gQ
+        run: docker login --username ahmedmorsi --password dckr_pat_RCM7sOWtIoVCNXp6-64pvB2y6gQ
